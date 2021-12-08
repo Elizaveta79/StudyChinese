@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+     <div id="logo" onclick="slowScroll('#top')">
+       <span>I Heart Chinese</span>
+     </div>
+     <div id="about">
+       <a href="#" title="Формат занятий" onclick="slowScroll('#main')">Формат занятий</a>
+       <a href="#" title="Преимущества" onclick="slowScroll('#overview')">Преимущества</a>
+       <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+       <a href="Преподаватели.html" title="Наши преподаватели" target="_self">Наши преподаватели</a>
+     </div>
+   </header>
+
+   <div id="top">
+     <h1>Изучайте китайский язык онлайн</h1>
+     <h3>Первое занятие БЕСПЛАТНО</h3>
+   </div>
+
+   <div id="main">
+     <div class="intro">
+       <h2>Формат занятий</h2>
+       <span>Все занятия в I Heart Chinese проводятся онлайн через сервис для видеоконференций Zoom, что позволяет преподавателю и ученику не только видеть и слышать друг друга, но также в режиме онлайн делиться с собеседником изображением с собственного экрана, писать на виртуальной доске и пересылать друг другу учебные материалы и сообщения.</span>
+     </div>
+     <div class="zoom">
+       <img src="https://mk0fuelcyclecomly9v5.kinstacdn.com/wp-content/uploads/2020/07/man-hosting-virtual-conference.jpg" alt="">
+       <p>Zoom видеоконференция</p>
+     </div>
+   </div>
+
+   <div id="overview">
+     <h2>Наши преимущества</h2>
+     <ul style="list-style-type: disc">
+       <li>Эффективность<span>Занятия с опытными преподавателями из России по авторской методике итеративного обучения обеспечат максимальную продуктивность и концентрацию ученика и полное погружение в китайский язык и культуру</span></li>
+       <li>Удобство<span>Занятия проходят онлайн, в индивидуальном формате. Длительность одного занятия составляет 25 минут, что позволяет найти время для изучения китайского языка даже в самом плотном графике</span></li>
+       <li>Выгода<span>Экономия до 25% и стоимость от 599 рублей за урок покупке блока из 50 занятий, а также скидка 50% на первые 10 занятий. Первое занятие - БЕСПЛАТНО!</span></li>
+     </ul>
+   </div>
+
+   <div id="contacts">
+     <center><h5>Обратная связь</h5></center>
+     <form id="form_input" action="http://g06u33.nn2000.info/cgi-bin/form_action.py">
+       <label for="name">Имя и Фамилия <span>*</span></label><br>
+       <input type="text" placeholder="Введите имя и фамилию" name="name" id="name"><br>
+       <label for="email">Ваша почта <span>*</span></label><br>
+       <input type="email" placeholder="Введите email" name="email" id="email"><br>
+       <label for="phone">Номер телефона <span>*</span></label><br>
+       <input type="pnone" placeholder="Введите номер телефона" name="phone" id="phone"><br>
+       <input type="date" name="date">
+       <p>
+          Название файла: <input type="Tехt" name="000_file_name" value="client.txt">
+          <br>Тип записи в файл:<select name="010_mode">
+          <OPTION value="a">a - дозаписать в файл</OPTION>
+          <OPTION value="w">w - очистить файл и записать в файл</OPTION>
+            </select>
+            <input type="hidden" name="function" value="page">
+            <input type="hidden" name="page_id" value="3">
+      </p>
+      <p>
+          <input type="Reset" class="btn" name="Reset" value="Обновить">
+          <input type="Submit" class="btn" name="submit" value="Отправить">
+      </p>
+     </form>
+   </div>
+
+   <div>
+     <p><a href="Лицензия.html"><img src="https://static.tildacdn.com/tild3565-3066-4037-b166-656339656630/3.jpg" width="90"
+   height="50" alt=""></a></p>
+   <p>Лицензия</p>
+     <div id="feedback"><h5>Отзыв о работе сайта<h5>
+     <form id="form_input2" action="http://g06u33.nn2000.info/cgi-bin/form_action.py">
+      <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+       <p>
+         <p>
+            Название файла: <input type="Tехt" name="000_file_name" value="client_feedback.txt">
+           <br>Тип записи в файл:<select name="010_mode">
+            <OPTION value="a">a - дозаписать в файл</OPTION>
+            <OPTION value="w">w - очистить файл и записать в файл</OPTION>
+            </select>
+            <input type="hidden" name="function" value="page">
+            <input type="hidden" name="page_id" value="3">
+          </p>
+          <p>
+            <input type="Reset" class="btn2" name="Reset" value="Обновить">
+            <input type="Submit" class="btn2" name="submit" value="Отправить">
+         </p>
+     </form>
+    </div>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script>
+     function slowScroll(id) {
+       $('html, body').animate({
+         scrollTop: $(id).offset().top
+       }, 500);
+     }
+   </script>
+</body>
+</html>
