@@ -1,0 +1,224 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background-color: #FF7F50;
+  float: left;
+  position: fixed;
+}
+
+header #logo {
+  color: #fff;
+  width: 30%;
+  float: left;
+  cursor: pointer;
+}
+
+header #logo span {
+  font-size: 1.7em;
+  line-height: 45px;
+  margin-left: 40px;
+  font-family: 'Suez One', serif;
+}
+#about {
+  float: right;
+  width: 67%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+#about > a {color: #fff}
+
+#about > a:hover {
+  color: #b0b0b0;
+  text-decoration: underline;
+}
+
+#about > a:not(:last-child) {
+  margin-right: 7%;
+}
+
+#top {
+  width: 100%;
+  height: 1000px;
+  background-image: url(https://avatars.mds.yandex.net/get-zen_doc/230574/pub_5c8385d5d2350300b47ccfd4_5c83869116c36900b3d5117f/scale_1200);
+  background-blend-mode: multiply;
+  background-color: #bc8f8f;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+#top h1{
+  padding-top: 20%;
+}
+
+#top h3 {
+  color: #fff;
+  margin-top: 4%;
+}
+
+#main {
+  padding: 100px 10%;
+  width: 80%;
+  float:left;
+  background-color: #f6f6f6;
+  border-top: 2px solid silver;
+  color: #484848;
+  font-size: 1.3em
+}
+
+#main div {
+  width: 48%;
+  margin-right: 2%;
+  float: right;
+}
+
+#main h2 {font-size: 3em; margin-bottom: 5%;}
+
+#main span {color:#a0a0a0}
+
+.zoom img{
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+.zoom p {
+  font-size: 0.7em;
+  text-align: center;
+  font-style: italic;
+  color: #a0a0a0;
+}
+
+#overview {
+  float:left;
+  background-image: url(https://cms.enjourney.ru/upload/Jana/China/Attraction/Great-Wall-of-China.jpg);
+  background-blend-mode: multiply;
+  background-color: #cd853f;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  width: 100%
+  text-align: center;
+  color: #fff;
+}
+
+#overview h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#overview ul {
+  font-size: 40px;
+  margin-left: 170px;
+  margin-bottom: 60px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#overview li {
+  margin-bottom: 200px;
+}
+
+#overview span {
+  float: left;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#contacts {
+  width: 100%;
+  float: left;
+  padding-bottom: 40px;
+  padding-top: 70px;
+  border-top: 4px solid #ccc;
+  background: #f4f4f4;
+}
+
+#contacts h5 {
+  font-size: 3em;
+  color: #4f4f4f
+}
+
+#form_input {
+  margin-top: 15px;
+  width: 35%;
+  margin-left: 38%;
+  font-size: 1.1em;
+}
+
+#form_input label {
+  color: #505050;
+  font-size: 1.4em;
+}
+
+#form_input label > span {
+  color: #e87e7e;
+}
+
+#form_input input {
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px 2%;
+  border-radius: 7px;
+  border: 2px solid silver;
+  font-size: 0.9em;
+  color: #4a4a4a;
+}
+
+#form_input input:focus {
+  border-color: black;
+}
+
+.btn {
+  float: left;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 20px;
+  background-color: #D2691E;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FF4500;
+}
+
+#feedback {float: right;}
+
+.btn2 {float: left;
+margin-top: 10px;
+border-radius: 2px;
+padding: 5px 9px;
+font-size: 10px;
+background-color: #D2691E;
+cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #FF4500;
+}
